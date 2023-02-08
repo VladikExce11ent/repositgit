@@ -1,0 +1,18 @@
+.student {
+    list-style: none;
+    border-left: 10px solid #20B2AA;
+    padding: 0;
+    font-family: "Consolas";
+}
+
+    .student li {
+        padding: 10px;
+    }
+
+        .student li:nth-child(odd) {
+            background: #E1F1FF;
+        }
+
+        .student li:nth-child(even) {
+            background: white;
+        }
